@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*border: 0;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+*/
+}
+
+body {
+  font-family: "Thassadith", sans-serif;
+  background: #e2e4e7;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.content {
+  background: #e2e4e7;
+  color: white;
+  background-color: #e2e4e7;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  background-repeat: repeat;
+  background-blend-mode: lighten;
+  font-family: "Thasadith", sans-serif;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 125px;
+  color: black;
+  z-index: 0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.blurb {
+  font-family: "Thasadith", sans-serif;
+  width: 700px;
+  font-size: 28px;
+}
+
+.miniblurb {
+  font-family: "Thasadith", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.pic {
+  width: 200px;
+  border-radius: 100%;
+  margin-bottom: 5px;
+}
+
+.socials {
+  margin-top: 50px;
+}
+
+.socials a {
+  margin: 18px;
+  padding: 5px 10px;
+}
+
+.social-icn {
+  width: 35px;
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.8s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
